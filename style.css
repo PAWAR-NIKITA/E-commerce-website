@@ -5,6 +5,8 @@
  	padding: 0;
  }
  body{
+ 	/*background-size: cover;
+ 	background-position: center;*/
 
  }
  .nav{
@@ -14,7 +16,7 @@
 	padding-left: 30px;
 	padding-right: 20px;
 	display: flex;
-	box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, .20);
+	box-shadow: 0px 3px 65px 0px rgba(0, 0, 0, .15);
 }
  
  .nav_top{
@@ -62,10 +64,10 @@
 	transition: all 0.7s ease;
 }
 .main{
-	padding-top: 80px;
+	padding-top: 100px;
 	padding-bottom: 400px;
 	background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190622/ourmid/pngtree-creative-synthesis-simple-book-education-and-training-background-image_219497.jpg");
-    background-position: cover;
+    background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -83,6 +85,7 @@
 	font-weight: bold;
 	text-align: center;
 	font-size: 50px;
+	/*line-height: 20px;*/
 }
 .main .main_content h2 span{
 	color: #5F4C0B;
@@ -147,8 +150,10 @@
 	padding: 50px;
 }
 .products .products_container{
+
 	display: flex;
 }
+
 .products .products_container .item:hover{
 	box-shadow:0px 3px 65px 0px #848484;
 }
@@ -157,6 +162,11 @@
 	margin-bottom:50px;
 	text-align: center;
 }
+/*.products .products_container .item .item-img{
+	width: 100%;
+	height: 250px;
+	overflow: hidden;*/
+
 .products .products_container .item  .item_content a{
 	text-decoration: none;
 	color: white;
@@ -302,6 +312,138 @@
 	color:#010008;
 	padding-bottom: 5px;
 	font-weight:lighter ;
+}
+
+.team{
+	padding: 50px;
+}
+.team h2{
+	text-align: center;
+	color:#0B615E;
+	font-weight: lighter;
+	font-size: 35px;
+	font-family: Basely;
+	padding-bottom: 50px;
+}
+.team .team_container{
+	display: flex;
+}
+.team .team_container .team_video{
+	width: 50%;
+	padding: 20px;
+}
+.team .team_container .team_video video{
+	width: 100%;
+	border: 10px solid orange;
+	outline: none;
+
+}
+.team .team_container .team_content{
+	width: 30%;
+	padding: 20px;
+	margin-left: 50px;
+}
+.team .team_container .team_content p{
+	font-size: 15px;
+	font-family:Basely;
+	color:#010008;
+}
+.feed{
+	padding: 50px;
+	background-image: url(feed.jpg);
+	background-size: cover;
+}
+.feed h2{
+	text-align: center;
+	color:white;
+	font-weight: lighter;
+	font-size: 35px;
+	font-family: Basely;
+	padding-bottom: 50px;	
+}
+.feed .feed_form{
+	text-align: center;
+}
+.feed .feed_form form{
+	20px;
+}
+.feed .feed_form form input{
+	width: 30%;
+	margin: 10px;
+	padding: 8px;
+	outline: none;
+	border: none;
+}
+.feed .feed_form form textarea{
+	width: 30%;
+	margin: 10px;
+	padding: 8px;
+	outline: none;
+	border: none;
+}
+.feed .feed_form form button{
+	font-size: 18px;
+	width: 30%;
+	margin: 10px;
+	padding: 8px;
+	outline: none;
+	border: none;
+	background-color:#0000FF;
+	color: white;
+	border-radius: 8px;
+
+}
+.feed .feed_form form button:hover{
+	padding:10px;
+	text-decoration: none;
+	border-radius:10px;
+	background-color:#F3F781;
+	color: blue;
+	border: none;
+	font-weight: bold;
+	transition: all 0.7s ease;
+}
+
+.about_us{
+	padding: 180px;
+}
+.about_us h2{
+	text-align: center;
+	color:orange;
+	font-size: 35px;
+	font-family: Basely;
+	padding-bottom: 20px;
+	
+}
+.about_us p{
+	font-size: 18px;
+	color: darkgreen;
+	padding: 20px;
+	text-align: center;
+	line-height: 22px;
+}
+.contact_container{
+	padding: 200px;
+	text-align: center;
+}
+.contact_container h2{
+	font-size: 35px;
+	font-family: Basely;
+	color:orange;
+	padding: 30px;
+	padding-bottom: 60px;
+
+}
+.contact_container .contact_content{
+	padding: 30px;
+	font-size: 25px;
+	font-family: Basely;
+	color:orange;
+	line-height: 70px;
+
+}.contact_container .g_map{
+	border: lightcoral;
+	box-shadow: 10px 10px 65px gray;
 }
 
 footer{
